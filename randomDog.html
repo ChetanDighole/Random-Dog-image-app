@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOG</title>
+  </head>
+  <style>
+    body{
+        background: linear-gradient(to right, #7f00ff, #e100ff);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .btnx{
+        background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+          }
+
+        .btnx:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+  </style>
+  <body>
+    <h1>Random Dog Images</h1>
+    <div id="dog"><img src="" alt="" srcset="" /></div>
+    <button class="btnx">click for dog</button>
+    <script src="./randomDog.js"></script>
+  </body>
+</html>
